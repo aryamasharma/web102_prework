@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-<img src="//s.imgur.com/min/embed.js"></img>
+<img src="http://i.imgur.com/https://imgur.com/D0NweHx/file.gif"></img>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/)
