@@ -18,10 +18,10 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
-* [ ] Added a dark mode toggle button
-* [ ] Added hover effects to button and stat cards
-* [ ] Added different hover styles to dark mode
-* [ ] Spaced out the header contents so that it's more pleasing to the eye
+*Added a dark mode toggle button
+*  Added hover effects to button and stat cards
+* Added different hover styles to dark mode
+*  Spaced out the header contents so that it's more pleasing to the eye
 
 ## Video Walkthrough
 
