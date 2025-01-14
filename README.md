@@ -34,7 +34,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/)
 
 ## Notes
 
-Uploading the gif was tough because I had never done that before. Additionally, I wanted to make it so that when the button is pressed the button changes color for a while to show which button has recently been pressed but couldn't do that. 
+Uploading the gif was tough because I had never done that before.
 
 ## License
 
