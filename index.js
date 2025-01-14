@@ -99,6 +99,15 @@ gamesCard.innerHTML =`${GAMES_JSON.length}`
  * Skills used: functions, filter
 */
 
+
+let btn = document.querySelector("#theme-button");
+let header = document.querySelector(".header");
+
+const toggleDarkMode = () => {
+    document.body.classList.toggle("dark-mode");
+    header.classList.toggle("dark-header");
+};
+
 // show only games that do not yet have enough funding
 function filterUnfundedOnly() {
     deleteChildElements(gamesContainer);
@@ -145,6 +154,9 @@ const fundedBtn = document.getElementById("funded-btn");
 const allBtn = document.getElementById("all-btn");
 
 // add event listeners with the correct functions to each button
+
+
+btn.addEventListener('click', toggleDarkMode);
 unfundedBtn.addEventListener("click",filterUnfundedOnly);
 fundedBtn.addEventListener("click",filterFundedOnly);
 allBtn.addEventListener("click",showAllGames);
@@ -194,37 +206,3 @@ const secondGameElement = document.createElement('p');
 secondGameElement.textContent = `${secondGame.name} with ${secondGame.pledged.toLocaleString()}`;
 secondGameContainer.appendChild(secondGameElement);
 
-
-document.addEventListener('DOMContentLoaded', () => {
-    let btn = document.querySelector("#theme-button");
-    let all = document.querySelector("body");
-    let header = document.querySelector(".header");
-    let statscards = document.querySelectorAll(".stats-card");
-    let buttons = document.querySelectorAll("button");
-    let gamecards = document.querySelectorAll(".game-card" );
-
-    const toggleDarkMode = () => {
-        if (all.style.backgroundColor === 'rgb(117, 129, 144)') {
-            // Apply dark mode colors
-            all.style.backgroundColor = ' rgb(24, 37, 52)';
-            all.style.color = 'white';
-            header.style.backgroundColor = 'black';
-            
-             // Iterate over NodeList to apply styles
-             statscards.forEach(card => card.style.backgroundColor = 'rgb(5, 46, 94)');
-             buttons.forEach(btn => btn.style.backgroundColor = 'rgb(182, 205, 230)');
-             gamecards.forEach(card => card.style.backgroundColor = 'rgb(5, 46, 94)');
-        } else {
-            all.style.backgroundColor = '#758190'; 
-            all.style.color = ''; 
-            header.style.backgroundColor = 'lightblue';
-            
-            // Reset styles for NodeList
-            statscards.forEach(card => card.style.backgroundColor = '#a8b0bc');
-            buttons.forEach(btn => btn.style.backgroundColor = '');
-            gamecards.forEach(card => card.style.backgroundColor = '#FFFFFF');
-        }
-    };
-
-    btn.addEventListener('click', toggleDarkMode);
-});

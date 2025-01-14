@@ -11,13 +11,13 @@ body {
 
 .header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
     text-align: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    margin: -10px -10px;
 }
 
 .stats-container {
@@ -35,7 +35,7 @@ body {
 
 .stats-card:hover {
     cursor: pointer;
-    background-color: #63a0c8a7 !important;
+    background-color: #63a0c8a7;
     border: #FFFFFF;
     border-style: groove;
     color:antiquewhite;
@@ -75,11 +75,56 @@ body {
     text-align: center;
 }
 
-button {
+button{
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
 }
+
+.toggle-mode{
+    background-color: #7589b6;
+    color: white;
+}
+
+button:active {
+    background-color: #4929c9;
+}
+
+button:hover{
+    background-color: #a8a7ac;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(95, 74, 125);
+}
+
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: rgb(24, 37, 52);
+    color: white;
+}
+
+.dark-header {
+    background-color: black;
+}
+
+body.dark-mode .game-card {
+    background-color: rgb(5, 46, 94);
+}
+
+body.dark-mode .stats-card {
+    background-color: rgb(5, 46, 94);
+}
+
+body.dark-mode .stats-card:hover {
+    background-color: rgb(17, 28, 41);
+}
+
+body.dark-mode button {
+    background-color: rgb(14, 32, 52);
+    color: white;
+}
+
 
