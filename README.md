@@ -26,8 +26,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-[![Watch the video](https://raw.githubusercontent.com/aryamasharma/web102_prework/main/)](https://raw.githubusercontent.com/username/repository/branch/https://imgur.com/D0NweHx)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/)
 
