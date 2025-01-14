@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="//s.imgur.com/min/embed.js"></img>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/)
