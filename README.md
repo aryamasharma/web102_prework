@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-<img src='https://i.imgur.com/S46InmS.gif' title ='Video WalkThrough' alt = 'Video Walkthrough'/>
+![Video Walkthrough](SeaMonsterVideo.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/)
