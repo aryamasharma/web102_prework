@@ -26,7 +26,10 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-[![Imgur Video](https://i.imgur.com/someImage.jp)](https://imgur.com/a/e22a2AL)
+<video width="640" height="360" controls>
+  <source src="https://i.imgur.com/someVideo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <img src="https://imgur.com/a/1aSzATi" width ='' alt ='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
